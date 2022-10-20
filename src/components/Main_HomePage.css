@@ -1,0 +1,75 @@
+body{
+    margin-top: 5%;
+    position: relative;
+}
+
+.bigPic{
+    width: 100%;
+}
+
+.div2{
+    padding-top: 3.5%;
+    color:darkslategray;
+    background-color: darkgrey;
+    height: 250px;
+    width: 100%;
+}
+
+.div2 .card-title {
+    font-size: 30px;
+    font-style: normal;
+    padding-bottom: 1%;
+}
+
+.card-group2{ 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.icon {
+    height: 115px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    padding-top: 2%;
+    color:darkslategray;
+}
+
+.card-text{
+    color:gray;
+}
+
+.div4{
+    height: 1000px;
+    background-color: #003C6A;
+}
+
+.card4{
+    height: 500px;
+}
+
+.product-image{
+    height: 200px;
+    width: 100%;
+}
+
+.our-product-card{
+    padding-top: 5%;
+}
+
