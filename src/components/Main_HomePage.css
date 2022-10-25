@@ -1,10 +1,11 @@
 body{
-    margin-top: 5%;
+    padding-top: 5%;
+    width: 100%;
     position: relative;
 }
 
 .bigPic{
-    width: 100%;
+    width: fit-content;
 }
 
 .div2{
@@ -56,20 +57,79 @@ body{
 }
 
 .div4{
-    height: 1000px;
+    height: 850px;
+    width: 100%;
     background-color: #003C6A;
 }
 
 .card4{
-    height: 500px;
+    height: 550px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+   
 }
 
-.product-image{
-    height: 200px;
-    width: 100%;
+.div4-tittle{
+    color: aliceblue;
+    padding-top: 5%;
 }
 
 .our-product-card{
     padding-top: 5%;
 }
 
+
+.div5{
+    height: 700px;
+    width:99%;
+    
+}
+
+.div5-tittle{
+    color: #2F4F4F;
+    padding-top: 4%;
+}
+
+.card5{
+    height: 450px;
+    margin-top: 15%;
+    border-radius: .5em;
+    background-color: #B0E0E6;
+    margin-left: 5%;
+    
+}
+
+.card5-card-tittle{
+    padding-top: 4%;
+    color:black;
+    font-weight: 700;
+}
+
+
+.div6{
+    height: 550px;
+    background-color: #003C6A;
+}
+
+.card6{
+    height: 350px;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: NO;
+}
+
+.div6-tittle{
+    color: aliceblue;
+    padding-top: 5%;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+}
+
+.our-product-card{
+    padding-top: 5%;
+}

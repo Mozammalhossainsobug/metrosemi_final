@@ -6,24 +6,7 @@ import logo from '../images/metrosemi_logo.png';
 function Navbar() {
   return (
     <> 
-    <nav class="navbar fixed-top navbar-dark  ">
-         <div class="container-fluid nav1 bg-dark position-absolute top-0 start-0">
-         <span class="navbar-text text-white fw-semibold">
-                 <i class="fa-brands fa-whatsapp" ></i>
-                 &nbsp;
-                 (+1)408-430 2470
-                 &nbsp;
-                 <i class="fa-regular fa-envelope"></i>
-                 &nbsp;
-                 alam@metrosemi.com
-           </span>
-           <span class="navbar-text text-white fw-semibold">
-                 Contact Us
-           </span>
-         </div>
-       </nav>
-
- <nav class="navbar fixed-top navbar-expand-lg bg-light nav2">
+ <nav class="navbar fixed-top navbar-expand-lg bg-light nav">
   <div class="container-fluid ">
   <img src={logo} width="150" height="60"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

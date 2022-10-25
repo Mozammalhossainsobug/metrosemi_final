@@ -1,0 +1,51 @@
+.contactUs{
+    margin-left: 120px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2D3B43;
+}
+
+.div1{
+    margin-top: 30px;   
+}
+
+.form-div{
+    border-color: red;
+    border-width: 1000px;
+    font-size: 18px;
+    background-color: #F1F7FC;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 90%;
+    height: 800px;
+    margin-bottom: 100px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+.form-label{
+    margin-top: 10px;
+}
+
+.optional-div{
+    width: 850px;
+    height: 100px;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+}
+
+.btn-danger{
+    width: 250px;
+    height: 50px;
+    margin-left: 300px;
+}
