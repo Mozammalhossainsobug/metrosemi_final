@@ -1,28 +1,32 @@
 import React from 'react';
-import '../App.css';
+import '../../../App.css';
 import './Main_HomePage.css';
 import { Image } from 'react-bootstrap';
-import img1 from '../images/EmbeddedImage-1.png';
-import wifistyle1 from '../images/wifitelsyte1.jpg';
-import icicon from '../images/icicon.png';
-import rotary from '../images/rotary-e1488772122805.png';
-import AZX400 from '../images/AZX400.png';
-import F20s from '../images/F20s.png';
-import FSM413C2C from '../images/FSM 413C2C.png';
-import FSM128L from '../images/FSM-128L.png';
-import FSM500TC from '../images/FSM-500TC.png';
-import FSM900TC from '../images/FSM-900TC.png';
-import flimetrics from '../images/flimetrics.png';
-import precitec from '../images/precitec.png';
-import fsm from '../images/fsm.png';
-import amd from '../images/amd.png';
-import intel from '../images/intel.png';
-import mit from '../images/mit.png';
-import nasa from '../images/nasa.png';
-import sandia from '../images/sandia.png';
-import sandisk from '../images/sandisk.png';
-import sk from '../images/sk.png';
- 
+import img1 from '../../../images/EmbeddedImage-1.png';
+import wifistyle1 from '../../../images/wifitelsyte1.jpg';
+import icicon from '../../../images/icicon.png';
+import rotary from '../../../images/rotary-e1488772122805.png';
+import AZX400 from '../../../images/AZX400.png';
+import F20s from '../../../images/F20s.png';
+import FSM413C2C from '../../../images/FSM 413C2C.png';
+import FSM128L from '../../../images/FSM-128L.png';
+import FSM500TC from '../../../images/FSM-500TC.png';
+import FSM900TC from '../../../images/FSM-900TC.png';
+import flimetrics from '../../../images/flimetrics.png';
+import precitec from '../../../images/precitec.png';
+import fsm from '../../../images/fsm.png';
+import amd from '../../../images/amd.png';
+import intel from '../../../images/intel.png';
+import mit from '../../../images/mit.png';
+import nasa from '../../../images/nasa.png';
+import sandia from '../../../images/sandia.png';
+import sandisk from '../../../images/sandisk.png';
+import sk from '../../../images/sk.png';
+import { Link } from 'react-router-dom';
+
+
+import F20Series from '../F20 series/F20Series';
+
  
  
 function Main_HomePage() {
@@ -143,10 +147,13 @@ function Main_HomePage() {
                    <div class="col-sm-4">
                      <div class="card card4">
                        <div class="card-body">
-                       <Image src={F20s} class="card-img-top" alt="F20s"/>
+                       <Image style={{ width: 300, height: 300 }} src={F20s} class="card-img-top" alt="F20s"/>
                          <h5 class="card-title">F20s</h5>
                          <p class="card-text">F20s are general-purpose film thickness measurement instruments, and are used in thousands of applications worldwide. Thickness  measured in less than a second.</p>
-                         <a href="#" class="btn btn-primary">Read More</a>
+                         <a class="btn btn-primary">
+                         Read More
+                         </a>
+                       
                        </div>
                      </div>
                    </div>

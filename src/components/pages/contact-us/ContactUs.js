@@ -17,19 +17,19 @@ export default function ContactUs() {
             
               <div className='column'>
               <label className='form-label'>First Name:<br/>
-              <input type="text" name="firstName" />
+              <input type="text" name="firstName" class="input-contactUs" />
               </label>
 
               <label className='form-label'>Last Name:<br/>
-              <input type="text" name="lastName" />
+              <input type="text" name="lastName" class="input-contactUs" />
               </label>
 
               <label className='form-label'>Company Name:<br/>
-              <input type="text" name="companyName" />
+              <input type="text" name="companyName" class="input-contactUs" />
               </label>
 
               <label className='form-label'>Direct my question to:<br/>
-              <input type="text" name="question" />
+              <input type="text" name="question" class="input-contactUs" />
               </label>
               </div>
 
@@ -37,15 +37,15 @@ export default function ContactUs() {
 
               <div className='column'>
               <label className='form-label'>E-mail Address:<br/>
-              <input type="email" name="email" />
+              <input type="email" name="email" class="input-contactUs"/>
               </label>
 
               <label className='form-label'>Telephone Number:<br/>
-              <input type="tel" name="phoneNumber" />
+              <input type="tel" name="phoneNumber" class="input-contactUs"/>
               </label>
 
               <label className='form-label'>Country:<br/>
-              <input type="country" name="country" />
+              <input type="country" name="country" class="input-contactUs"/>
               </label>
 
               </div>

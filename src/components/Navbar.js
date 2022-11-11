@@ -15,16 +15,31 @@ function Navbar() {
     <div class="collapse navbar-collapse nav-right-align" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">
+          <Link className="link" to="">
+              Home
+            </Link>
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Stress Tools
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">FSM 128L</a></li>
-            <li><a class="dropdown-item" href="#">FSM 500TC</a></li>
-            <li><a class="dropdown-item" href="#">FSM 900TC</a></li>
+            <li>
+            <Link className="link dropdown-item" to="fsm128L">
+            FSM 128L
+            </Link>
+            </li>
+            <li>
+            <Link className="link dropdown-item" to="fsm500TC">
+            FSM 500TC
+            </Link>
+            </li>
+            <li><Link className="link dropdown-item" to="fsm900TC">
+            FSM 900TC
+            </Link>
+            </li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -32,9 +47,17 @@ function Navbar() {
           Thickness Tools
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">FSM 413C2C</a></li>
-            <li><a class="dropdown-item" href="#">AZX400</a></li>
-            <li><a class="dropdown-item" href="#">F20s</a></li>
+            <li class="dropdown-item"><Link className="link" to="fsm413C2C">
+            FSM 413C2C
+            </Link></li>
+            <li class="dropdown-item"> <Link className="link" to="azx400">
+              AZX400
+            </Link>
+            </li>
+            <li class="dropdown-item"> <Link className="link" to="f20Series">
+              F20s
+            </Link>
+            </li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -42,16 +65,29 @@ function Navbar() {
           Defect Inspection Tool
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">RAMAN-360</a></li>
+            <li><Link className="link dropdown-item" to="raman360">
+            RAMAN-360
+            </Link>
+            </li>
             <li><a class="dropdown-item" href="#">XRF-W Series</a></li>
             <li><a class="dropdown-item" href="#">XRF-G Series</a></li>
-            <li><a class="dropdown-item" href="#">XRF-AZX400</a></li>
-            <li><a class="dropdown-item" href="#">FSM 900TC</a></li>
+            <li class="dropdown-item"> <Link className="link" to="azx400">
+            XRF-AZX400
+            </Link>
+            </li>
+            <li><Link className="link dropdown-item" to="fsm900TC">
+            FSM 900TC
+            </Link>
+            </li>
             <li><a class="dropdown-item" href="#">Mass Spectrometer</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Measurement services</a>
+          <a class="nav-link" aria-current="page" href="#">
+          <Link className='link' to='/contactUs'>
+          Measurement services
+          </Link>
+          </a>
         </li>
       </ul>
     </div>

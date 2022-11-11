@@ -1,4 +1,5 @@
 .nav-item{
+    justify-content: space-around;
     margin-left: 20px;
 }
 .nav-right-align{

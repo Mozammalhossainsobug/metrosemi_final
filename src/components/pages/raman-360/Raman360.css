@@ -1,0 +1,49 @@
+.raman360{
+    width: 99%;
+    padding-left: 120px;
+    padding-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.p-raman360{
+    color: #2D3B43;
+    font-size: 14px;
+}
+
+h3{
+    font-weight: 600;
+    color: #2D3B43;
+
+}
+
+
+h5{
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #2D3B43;
+}
+
+.row1{
+    margin-top: 100px;
+    color: #2D3B43;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.btn-row1{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10%;
+    justify-content: space-around;
+   
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-left: 0%;
+    margin-right: 5%;  
+}
+
