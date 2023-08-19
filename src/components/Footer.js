@@ -6,11 +6,11 @@ import './Footer.css';
 function Footer() {
   return (
     <>
-   <footer class="footer">
+       <footer class="footer">
   	 <div class="container">
   	 	<div class="row">
   	 		<div class="footer-col">
-  	 			<h4>Head Office (USA)</h4>
+  	 			<h4>Head Office<br/>(USA)</h4>
   	 			<ul>
   	 			<li>
                 <p> <i class="fa-solid fa-user-graduate"></i>
@@ -26,7 +26,7 @@ function Footer() {
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>Sales Office (China)</h4>
+  	 			<h4>Sales Office<br/>(China)</h4>
   	 			<ul>
   	 				<li><p><i class="fa-solid fa-user-graduate"></i>
                 &nbsp;
@@ -39,20 +39,20 @@ function Footer() {
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>Branch Office (Bangladesh)</h4>
+  	 			<h4>Branch Office<br/>(Bangladesh)</h4>
   	 			<ul>
   	 				<li><p><i class="fa-solid fa-user-graduate"></i>
-                &nbsp;Monir Hasan <br />
+                &nbsp;Maruf Chowdhury <br />
             Director,Bangladesh Branch
 
             </p></li>
-  	 				<li><i class="fa-solid fa-envelope"></i>&nbsp;monir@metrosemi.com</li>
-  	 				<li><i class="fa-brands fa-whatsapp"></i>&nbsp;+8801715013979</li>
+  	 				<li><i class="fa-solid fa-envelope"></i>&nbsp;maruf@metrosemi.com</li>
+  	 				<li><i class="fa-brands fa-whatsapp"></i>&nbsp;+8809638957344</li>
   	 				<li><i class="fa-solid fa-address-card"></i>&nbsp;House-57/11,East Raza Bazar,West Pantha Path, Dhaka-1215, Bangladesh</li>
   	 			</ul>
   	 		</div>
          <div class="footer-col">
-  	 			<h4>Sales Office (Korea)</h4>
+  	 			<h4>Sales Office<br/>(Korea)</h4>
   	 			<ul>
   	 				<li><p><i class="fa-solid fa-user-graduate"></i>
                 &nbsp;Mark Mobius<br/>
@@ -65,6 +65,7 @@ function Footer() {
   	 	</div>
   	 </div>
   </footer>
+
     </>
   );
 }

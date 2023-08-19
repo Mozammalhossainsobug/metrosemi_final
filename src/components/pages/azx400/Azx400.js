@@ -2,42 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './azx400.css';
 import imgAzx400 from '../../../images/AZX400.png';
+import UpperAzx400 from './UpperAzx400/UpperAzx400';
 
 export default function Azx400() {
   return (
+    <>
+    <UpperAzx400/>
     <div className='azx400'>
-       <h3>AZX400 Film Thickness Measurement Instruments</h3>
-      <div class='row row1'>
-
-            <div class="col-sm-5">
-            AZX 400 sequential wavelength dispersive X-ray fluorescence (WDXRF) spectrometer was specifically designed to handle very large and/or heavy samples. <br/><br/>
-            Accepting samples up to 400 mm diameter, 50 mm thick and 30 kg mass, this system is ideal for analyzing sputtering targets, magnetic disks, or for multilayer film metrology or elemental analysis of large samples.
-            <br/>
-            <div class="btn-row1">
-                <Link className='link' to='/contactUs'>
-                    <button type="button" class="btn btn-danger">GET A QUOTE</button>
-                </Link>
-                <button type="button" class="btn btn-danger">GET A DATASHEET</button>
-            </div>
-            
-            </div>
-
-            <div class="col-sm-4">
-                <img src={imgAzx400} width="350" height="300" />
-            </div>
-
-            <div class="col-sm-3">
-                <form class="col-f20Series">
-                    <div className='col-f20Series-tittle'>CONTACT US NOW</div>
-                    <p className='f20Series-para'>We love talking about thin films so we’ll reply in just a minute or two. (M-F)</p>
-                    <input type="text" placeholder='Your Name' className='f20Series-fill'></input>
-                    <input type="email" placeholder='E-mail or Phone' className='f20Series-fill'></input>
-                    <textarea type="textarea" placeholder='Message' className='f20Series-fill'></textarea>
-                    <button type="button" class="btn btn-danger">CONTACT US NOW</button>
-                </form>
-            </div>
-      </div>
-
       <div className='row-Azx400'>
             <div className='col-sm-6'>
             <h3>Features</h3>
@@ -158,5 +129,6 @@ export default function Azx400() {
       </div>
 
     </div>
+    </>
   )
 }

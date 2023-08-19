@@ -1,0 +1,38 @@
+.Lower500TC2{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.table-Lower500TC2{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #DDDDDD;
+  font-size: 14px;
+}
+
+.Lower500TC2 tr,td {
+    padding: 1%;
+    border: 1px solid #DDDDDD;
+}
+
+.Lower500TC2 .left-td {
+    width: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Lower500TC2{
+        width: 99%;
+        margin-top: 10%;
+    }
+    .row{
+        width: 90%;
+    }
+    .Lower500TC2-col1{
+        width: 100%;
+    }
+  }

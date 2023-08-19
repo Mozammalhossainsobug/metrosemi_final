@@ -1,0 +1,79 @@
+.ourVisionMissionGoal{
+    height: 100%;
+    width: 100%;
+}
+
+.ourVisionMissionGoal .card-title {
+    font-size: 28px;
+    font-style: normal;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.ourVisionMissionGoal .card-subtitle{
+    color: white;
+    font-weight: 50;
+}
+
+.ourVisionMissionGoal .card-group2{ 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ourVisionMissionGoal .card1{
+    padding-top: 2%;
+    color:white;
+    background-color: #073185;
+    padding-bottom: 3%;
+}
+
+.ourVisionMissionGoal .card2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.ourVisionMissionGoal .card-img-top{
+    height: 50%;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourVisionMissionGoal .card2 .card-title{
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color:darkslategray;
+}
+
+.ourVisionMissionGoal .card-text{
+    color:gray;
+}
+
+@media screen and (max-width: 600px) {
+    .ourVisionMissionGoal {
+      font-size: 10px;
+    }
+    .ourVisionMissionGoal .card-subtitle{
+        font-size: 10px;
+    }
+    .ourVisionMissionGoal .card-title{
+        font-size: 18px;
+    }
+    .ourVisionMissionGoal .card-img-top{
+        height: 20%;
+        width: 30%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+  }

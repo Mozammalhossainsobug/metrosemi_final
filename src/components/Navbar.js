@@ -47,15 +47,21 @@ function Navbar() {
           Thickness Tools
           </a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><Link className="link" to="fsm413C2C">
-            FSM 413C2C
-            </Link></li>
+            <li class="dropdown-item">
+            <Link className="link" to="fsm413C2C">FSM 413C2C</Link>
+            </li>
+            <li class="dropdown-item">
+            <Link className="link" to="fsm413SA">FSM 413SA</Link>
+            </li>
+            <li class="dropdown-item">
+            <Link className="link" to="fsm413MOT">FSM 413MOT</Link>
+            </li>
             <li class="dropdown-item"> <Link className="link" to="azx400">
               AZX400
             </Link>
             </li>
             <li class="dropdown-item"> <Link className="link" to="f20Series">
-              F20s
+              F50
             </Link>
             </li>
           </ul>
@@ -69,8 +75,6 @@ function Navbar() {
             RAMAN-360
             </Link>
             </li>
-            <li><a class="dropdown-item" href="#">XRF-W Series</a></li>
-            <li><a class="dropdown-item" href="#">XRF-G Series</a></li>
             <li class="dropdown-item"> <Link className="link" to="azx400">
             XRF-AZX400
             </Link>
@@ -79,13 +83,12 @@ function Navbar() {
             FSM 900TC
             </Link>
             </li>
-            <li><a class="dropdown-item" href="#">Mass Spectrometer</a></li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">
           <Link className='link' to='/contactUs'>
-          Measurement services
+          Contact Us
           </Link>
           </a>
         </li>
@@ -93,9 +96,7 @@ function Navbar() {
     </div>
   </div>
 </nav>
-        
-      
-      
+          
     </>
   );
 }

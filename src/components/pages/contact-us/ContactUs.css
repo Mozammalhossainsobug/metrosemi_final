@@ -1,6 +1,6 @@
 .contactUs{
     margin-left: 120px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: 'Ubuntu', sans-serif;
     color: #2D3B43;
 }
@@ -13,6 +13,7 @@
     border-color: red;
     border-width: 1000px;
     font-size: 18px;
+    font-weight: bolder;
     background-color: #F1F7FC;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -36,7 +37,7 @@
 
 .optional-div{
     width: 850px;
-    height: 100px;
+    height: 200px;
 }
 
 input-contactUs{
@@ -48,4 +49,10 @@ input-contactUs{
     width: 250px;
     height: 50px;
     margin-left: 300px;
+    border: none;
+}
+
+.contact_button{
+    background-color:#BB2D3B;
+    border-radius: 2em;
 }

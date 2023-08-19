@@ -1,13 +1,11 @@
 body{
-    padding-top: 5%;
     width: 100%;
+    padding-top:2%;
     position: relative;
 }
-
 .bigPic{
-    width: fit-content;
+    width: 80%;
 }
-
 .div2{
     padding-top: 3.5%;
     color:darkslategray;
@@ -37,14 +35,6 @@ body{
     border: none;
     padding-top: 5%;
     padding-bottom: 5%;
-}
-
-.icon {
-    height: 115px;
-    width: 120px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .card-title{
@@ -133,4 +123,22 @@ body{
 
 .our-product-card{
     padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin-top: 20%;
+    }
+
+    .div2{
+        height: 200px;
+    }
+    .div2 .card-title {
+        font-size: 20px;
+    }
+    .div2 .card-subtitle{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    
 }

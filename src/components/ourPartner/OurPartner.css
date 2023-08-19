@@ -1,0 +1,59 @@
+.OurPartner{
+    height: 80%;
+    width:98%;
+    margin-bottom: 100px;
+}
+
+.OurPartner .partner-image{
+    padding-top: 4%;
+    height: 50%;
+    width: 80%;
+}
+
+.OurPartner .div5-tittle{
+    color: black;
+    font-weight: bolder;
+    padding-top: 1%;
+}
+
+.OurPartner .card5{
+    height: 100%;
+    width: 90%;
+    border-radius: .5em;
+    margin-left: 5%;
+    background-color: #073185;
+}
+
+.OurPartner .card5-card-tittle{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.OurPartner .card5 .card-text{
+    padding-top: 5%;
+    color: white;
+    font-size: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .OurPartner{
+        height: 50%;
+        width:100%;
+        padding-left: 10%;
+    }
+    .OurPartner .partner-image{
+        height: 50%;
+        width: 80%;
+    }
+    .OurPartner .card5-card-tittle{
+        color:black;
+        font-weight: 700;
+    }
+    .OurPartner .card5{
+    height: 85%;
+    width: 95%;
+    border-radius: .5em;
+    font-size: 10px; 
+    }
+  }

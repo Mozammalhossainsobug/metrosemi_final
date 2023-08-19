@@ -1,0 +1,40 @@
+.ourClient{
+    height: 100%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.ourClient .div4-tittle{
+    color: black;
+    font-weight: bolder;
+}
+
+.ourClient .card-img-top{
+    height: 80%;
+    width: 80%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color:cornflowerblue;
+  border-radius: 2%;
+}
+
+.card6{
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .ourClient{
+        height: 100%;
+        padding-bottom: 2%;
+        padding-left: 10%;
+    }
+    .ourClient .card-img-top{
+        height: 200px;
+        width: 200px;
+    }
+  }

@@ -1,0 +1,41 @@
+Specifications:
+Operating Temperature: Ambient
+Measurement Technique: Non-Contact Laser Scanning
+Wafer Size: FSM 128C2C: 150mm to 200mm (Standard)
+FSM 128C2G-SMIF: Mini-environment Option
+FSM 128L C2C: 300mm Open Cassete System
+FSM 12BL C2C (SF or DF): 300mm with Single or Dual
+FOUP. respectively
+Scanning Method: High precision Single Scan and Programmable mult-
+He mein scans 3 5 an 35 ap pots
+Auto Intensity: Automatically adjusts laser intensity according to reflectv-
+ity of samples.
+Auto Switching Dual Lasers: 650nm and 780nm
+Fim Stress Measurement Range: 1 MPA to 1.4 GPA for a typical Si
+waer (provided curvature of bow’ height change is at
+Teast 1 micron)
+Repeatabily: 1 % (1 sigma) on a 20m curvature mor standard®
+Accuracy: Better than 2.5% based on a 20 m radius curvature mirror*
+Laser Class: Laser Product Class 1
+Data Compatibility: Measurement results or maps are exportable to
+spreadsheet programs like Excel or to Jpeg image files
+Optional Acosesaees : Wes Sek Moppies, Genet 1 eatin
+'SECS/GEM Communications
+Computer: CPU: Intel core i5 or later, Ram: 2Gb min. Hard Drive: 1Tb.
+Optical Drive: DVD RIW, USB Port (Min) 4
+Ethernet connections: 2 RJ-45
+Dimensions & Weight
+FSM 128C2C: 38° (W) x 45'(D) x 75'(H); 8501s
+FSM 128L C2C: 41(W) x 57°(D) x 75'(H); 1000ibs
+FSM 128L C2C (DF): 587(w) x 687(D) x 75°(H); 12101bs
+Power: 110v220v; 20A
+
+* Wafer Bow is defined as the deviation of the center point of the front
+surface of ares. unclamped wafer supparted by 3 pons equally spaced
+on a circle within the diameter a specified amount less than the nominal
+diameter of the wafer
+
+* Actual Repeatability or Accuracy of file stress depends on the type of
+film, thickness of the file and substrate
+
+Excel™ is the trademark of Microsoft Corporation

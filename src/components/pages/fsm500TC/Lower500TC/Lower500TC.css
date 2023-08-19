@@ -1,0 +1,75 @@
+
+.Lower500TC .comparison-table {
+    font-family: 'lato', sans-serif;
+    color: #2D3B43;
+    margin-top: 150px;
+}
+.Lower500TC .comparison-table .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Lower500TC .responsive-table {
+    margin-top: 50px;
+}
+.Lower500TC .responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.Lower500TC .responsive-table .table-header {
+    background-color: #95a5a6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.Lower500TC .responsive-table .table-row {
+    background-color: #fff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.Lower500TC .responsive-table .col-1 {
+    flex-basis: 20%;
+}
+.Lower500TC .responsive-table .col-2 {
+    flex-basis: 20%;
+}
+.Lower500TC .responsive-table .col-3 {
+    flex-basis: 25%;
+}
+.Lower500TC .responsive-table .col-4 {
+    flex-basis: 25%;
+}
+
+@media screen and (max-width: 600px) {
+    .Lower500TC .comparison-table .container {
+        max-width: 94;
+        margin-left: -4%;
+        margin-right: 4%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Lower500TC .comparison-table .container h2{
+        margin-left: 4%;
+    }
+    .Lower500TC .responsive-table .col-1 {
+    flex-basis: 15%;
+    font-size: 10.5px;
+}
+.Lower500TC .responsive-table .col-2 {
+    flex-basis: 20%;
+    font-size: 11px;
+}
+.Lower500TC .responsive-table .col-3 {
+    flex-basis: 20%;
+    font-size: 11px;
+}
+.Lower500TC .responsive-table .col-4 {
+    flex-basis: 20%;
+    font-size: 11px;
+}
+  }

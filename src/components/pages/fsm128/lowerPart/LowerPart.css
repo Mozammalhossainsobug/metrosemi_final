@@ -1,0 +1,135 @@
+.Fsm128LowerPart{
+    height: 100%;
+    width: 99%;
+    margin-top: 3.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.Fsm128LowerPart h3{
+    font-weight: 600;
+    color: #2D3B43;
+
+}
+
+
+.Fsm128LowerPart h5{
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #2D3B43;
+}
+
+.Fsm128LowerPart .row1{
+    color: #2D3B43;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.Fsm128LowerPart .btn-row1{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10%;
+    justify-content: space-around;
+   
+}
+
+.Fsm128LowerPart .btn{
+    width: 180px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 5%;  
+}
+
+.Fsm128LowerPart .col-f20Series{
+    height: 400PX;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: azure;
+    align-items: center;
+    text-align: center;
+}
+
+.Fsm128LowerPart .col-f20Series-tittle{
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    background-color: #4B90CD;
+    padding-left: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Fsm128LowerPart .f20Series-para{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.Fsm128LowerPart .f20Series-fill{
+    margin: 4px;
+    width: 90%;
+    
+}
+
+.Fsm128LowerPart .row-Azx400{
+    display: flex;
+}
+
+.Fsm128LowerPart .table-Azx400{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #DDDDDD;
+  font-size: 14px;
+}
+
+.Fsm128LowerPart tr,td {
+    padding: 1%;
+    border: 1px solid #DDDDDD;
+}
+
+.Fsm128LowerPart .left-td {
+    width: 20%;
+    text-align: center;
+}
+
+.Fsm128LowerPart .feature-list{
+    color: #2D3B43;
+    font-size: 14px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .Fsm128LowerPart img{
+        height: 25%;
+        width: 95%;
+    }
+    .Fsm128LowerPart .col-sm-5{
+        margin-top: 90%;
+        font-size: 10px;
+    }
+    .Fsm128LowerPart .feature-list{
+        width: 150%;
+    }
+    .Fsm128LowerPart .col-sm-4{
+        margin-top: -270%;
+    }
+    .Fsm128LowerPart .btn{
+        width: 120px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 5%;  
+        font-size: 12px;
+    }
+    .Fsm128LowerPart .col-sm-3{
+        margin-top: 10%;
+    }
+  }
+
+
+
+
+

@@ -1,7 +1,22 @@
+.nav{
+margin-top: 1.3%;
+width: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+    
+}
 .nav-item{
     justify-content: space-around;
-    margin-left: 20px;
+    margin-left:0.00146%;
 }
 .nav-right-align{
    margin-left: 22%;
 }
+
+@media screen and (max-width: 600px) {
+    .nav{
+        margin-top: 5%;
+        }
+  }

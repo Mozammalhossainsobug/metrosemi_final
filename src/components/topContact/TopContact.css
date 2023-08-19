@@ -1,0 +1,21 @@
+.topContact{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    color: white;
+    background-color: #4C4C4C;
+    font-size: 13px;
+    padding-left: 10%;
+}
+
+
+.position-absolute{
+        padding-right: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topContact{
+       width: 1440px;
+    }
+  }

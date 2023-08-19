@@ -1,0 +1,68 @@
+.OurProduct4{
+  height: 100%;
+  margin-top: -1.5%;
+}
+
+.OurProduct4 .card4{
+  height: 84%;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 10%;
+  background-color: #073185;
+}
+
+.OurProduct4 .card4 img{
+  padding-bottom: 5%;
+  height: 250px;
+  width: 250px;
+}
+
+.OurProduct4 .div4-tittle{
+  color: black;
+  font-weight: bolder;
+  padding-top: 5%;
+}
+
+.OurProduct4 .card-tittle-Product{
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.OurProduct4 .card-text{
+    color: white;
+    font-weight: 20;
+    font-size: 78%;
+    padding-bottom: 5%;
+}
+
+.OurProduct4 .our-product-card{
+  padding-top: 5%;
+}
+
+.OurProduct4 .btn-primary{
+  margin-top: -2.5%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .OurProduct4{
+    margin-top: -6%;
+    padding-left: 10%;
+  }
+  .OurProduct4 .div4-tittle{
+      margin-left: -10%;
+  }
+  .OurProduct4 .card4{
+    height: 75%;
+    width: 90%;
+    font-size: 10px;
+    margin-left: 5%;
+    padding-top: 10%;
+  }
+  .OurProduct4 .card4 img{
+    height: 100px;
+    width: 100px;
+  }
+}
